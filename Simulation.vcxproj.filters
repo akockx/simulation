@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{28547c83-8c4a-4986-a131-9a53e23a1c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{b8982dd4-eba5-41d8-a8db-f33c3f54ca77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene">
+      <UniqueIdentifier>{c945cf73-967b-4f16-ba78-e46915cccdc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shader">
+      <UniqueIdentifier>{7e9d7ba7-95ee-4096-a91f-1941ae23f858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{a7b2fa23-d085-46f9-9058-d5ad9d94b05f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader\BasicShader.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader\PhongShader.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\Scene.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\BeachBall.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\SimulationBoundaries.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\WaterSurface.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\BoundingBox.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\FileUtils.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\ModelUtils.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\OpenGLUtils.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader\DisplacedZPhongShader.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\basic_fragment_shader.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\basic_vertex_shader.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\phong_fragment_shader.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\phong_vertex_shader.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\displaced_z_phong_vertex_shader.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\model\BeachBall.h">
+      <Filter>Source Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model\ObjectInterface.h">
+      <Filter>Source Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model\SimulationBoundaries.h">
+      <Filter>Source Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model\WaterSurface.h">
+      <Filter>Source Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\Scene.h">
+      <Filter>Source Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shader\BasicShader.h">
+      <Filter>Source Files\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shader\PhongShader.h">
+      <Filter>Source Files\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\BoundingBox.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\FileUtils.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\ModelUtils.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\OpenGLUtils.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shader\DisplacedZPhongShader.h">
+      <Filter>Source Files\shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

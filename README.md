@@ -22,7 +22,7 @@ The header and lib files of these dependencies are included in the "third_party"
 
 In order to run, your system must have a GPU that supports OpenGL 3.
 
-Before running make sure that the "shaders" folder is next to the "bin" folder and that the current working directory is e.g. bin\x64\ otherwise the program cannot find the shader .glsl files. In other words the shader .glsl files must be in a folder called "shaders" with a path "..\..\shaders" relative to the current working directory.
+Before running make sure that the "shaders" folder is next to the "bin" folder and that the current working directory is e.g. "bin/x64/" otherwise the program cannot find the shader .glsl files. In other words the shader .glsl files must be in a folder called "shaders" with a path "../../shaders" relative to the current working directory.
 
 
 
